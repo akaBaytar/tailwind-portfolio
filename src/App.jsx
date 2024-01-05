@@ -1,5 +1,13 @@
+import { Fragment } from 'react';
+
+import Navbar from './components/Navbar';
+
 function App() {
-  return <div>Portfolio</div>;
+  return (
+    <Fragment>
+      <Navbar />
+    </Fragment>
+  );
 }
 
 export default App;
