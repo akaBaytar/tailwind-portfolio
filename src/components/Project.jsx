@@ -6,7 +6,9 @@ import { TbWorldWww } from 'react-icons/tb';
 const Project = ({ img, url, github, title, text, tags }) => {
   return (
     <article className='bg-violet-100 rounded-lg shadow-md hover:shadow-xl duration-300'>
-      <img src={img} alt={title} className='w-full h-64 object-cover object-top rounded-t-lg' />
+      <a href={url} target='_blank' rel='noreferrer'>
+        <img src={img} alt={title} className='w-full h-64 object-cover object-top rounded-t-lg' />
+      </a>
       <div className='p-8'>
         <h2 className='text-xl tracking-wide font-medium'>{title}</h2>
         <p className='mt-4 text-slate-800 text-sm'>{text}</p>

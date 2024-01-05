@@ -12,6 +12,7 @@ import img5 from '../assets/img/project-5.png';
 import img6 from '../assets/img/project-6.png';
 import img7 from '../assets/img/project-7.png';
 import img8 from '../assets/img/project-8.png';
+import img9 from '../assets/img/project-9.png';
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -143,5 +144,14 @@ export const projects = [
     title: 'Restaurant Cerasus',
     text: 'A fictional multi-page restaurant project styled with SCSS and named after my hometown.',
     tags: ['javascript', 'html', 'scss', 'carousel'],
+  },
+  {
+    id: nanoid(),
+    img: img9,
+    url: 'https://burakbilgili-github-api.vercel.app/',
+    github: 'https://github.com/akaBaytar/github-finder',
+    title: 'Github Finder',
+    text: 'Github Finder is a React application developed using React and Vite. This project allows users to search for other users GitHub profiles.',
+    tags: ['react', 'vite', 'github', 'api'],
   },
 ];
