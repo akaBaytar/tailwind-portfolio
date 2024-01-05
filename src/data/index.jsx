@@ -4,6 +4,15 @@ import { FaHtml5, FaCss3, FaSass, FaBootstrap, FaJs, FaReact } from 'react-icons
 import { BiLogoTailwindCss } from 'react-icons/bi';
 import { TbApi } from 'react-icons/tb';
 
+import img1 from '../assets/img/project-1.png';
+import img2 from '../assets/img/project-2.png';
+import img3 from '../assets/img/project-3.png';
+import img4 from '../assets/img/project-4.png';
+import img5 from '../assets/img/project-5.png';
+import img6 from '../assets/img/project-6.png';
+import img7 from '../assets/img/project-7.png';
+import img8 from '../assets/img/project-8.png';
+
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
   { id: nanoid(), href: '#skills', text: 'skills' },
@@ -65,7 +74,7 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: '../assets/img/project-1.png',
+    img: img1,
     url: 'https://ecommerce-burakbilgili.vercel.app/',
     github: 'https://github.com/akaBaytar/e-commerce',
     title: 'E-Commerce',
@@ -74,7 +83,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: '../assets/img/project-2.png',
+    img: img2,
     url: 'https://burakbilgili-house-marketplace.vercel.app/',
     github: 'https://github.com/akaBaytar/house-marketplace',
     title: 'House Marketplace',
@@ -83,7 +92,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: '../assets/img/project-3.png',
+    img: img3,
     url: 'https://sip-n-shiver.vercel.app/',
     github: 'https://github.com/akaBaytar/sip-n-shiver',
     title: "Sip 'n Shiver",
@@ -92,7 +101,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: '../assets/img/project-4.png',
+    img: img4,
     url: 'https://feedback-app-akabaytar.vercel.app/',
     github: 'https://github.com/akaBaytar/feedback-app',
     title: 'Feedback App',
@@ -101,7 +110,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: '../assets/img/project-5.png',
+    img: img5,
     url: 'https://flixify-burakbilgili.vercel.app/',
     github: 'https://github.com/akaBaytar/flixify-project',
     title: 'Flixify',
@@ -110,16 +119,16 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: '../assets/img/project-6.png',
+    img: img6,
     url: 'https://tailwind-burakbilgili.vercel.app/',
     github: 'https://github.com/akaBaytar/landing-pages',
     title: 'Tailwind Landing Pages',
     text: 'Responsive landing pages I coded during my Tailwind learning journey. Designs were taken from the Frontend Mentor website.',
-    tags: ['landing-pages', 'frontendmentor', 'challenge', 'tailwindcss'],
+    tags: ['landing-pages', 'challenge', 'tailwindcss'],
   },
   {
     id: nanoid(),
-    img: '../assets/img/project-7.png',
+    img: img7,
     url: 'https://moviesiteburakbilgili.vercel.app/',
     github: 'https://github.com/akaBaytar/sanat-sepet',
     title: 'Sanat Sepet',
@@ -128,7 +137,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: '../assets/img/project-8.png',
+    img: img8,
     url: 'https://restaurant-cerasus.vercel.app/',
     github: 'https://github.com/akaBaytar/restaurant-cerasus',
     title: 'Restaurant Cerasus',
