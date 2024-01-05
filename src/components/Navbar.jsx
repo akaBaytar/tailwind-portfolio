@@ -3,7 +3,7 @@ import { links } from '../data/index';
 const Navbar = () => {
   return (
     <nav className='bg-violet-100'>
-      <div className='mx-auto max-w-7xl px-8 py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-8'>
+      <div className='aligning py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-8'>
         <h2 className='text-2xl font-bold'>
           Burak<span className='text-violet-600'>Bilgili</span>
         </h2>

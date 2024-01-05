@@ -5,7 +5,7 @@ import { FaSquareXTwitter, FaSquareGithub, FaLinkedin } from 'react-icons/fa6';
 const Hero = () => {
   return (
     <section className='bg-violet-100 py-24'>
-      <div className='mx-auto max-w-7xl px-8 grid md:grid-cols-2 items-center gap-8'>
+      <div className='aligning grid md:grid-cols-2 items-center gap-8'>
         <article>
           <h1 className='text-5xl font-semibold tracking-wide'>Hi, I&apos;m Burak</h1>
           <p className='mt-4 text-3xl text-slate-800 tracking-wide'>Frontend Developer</p>
