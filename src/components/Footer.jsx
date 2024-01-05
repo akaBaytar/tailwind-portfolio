@@ -5,7 +5,7 @@ const Footer = () => {
 
   return (
     <footer className='mx-auto px-8 py-4 bg-violet-100 text-center flex flex-col items-center'>
-      <div className='flex flex-col lg:flex-row lg:items-end lg:w-full lg:justify-between'>
+      <div className='flex flex-col items-center lg:flex-row lg:items-end lg:w-full lg:justify-between'>
         <h2 className='text-2xl font-bold'>
           Burak<span className='text-violet-600'>Bilgili</span>
         </h2>

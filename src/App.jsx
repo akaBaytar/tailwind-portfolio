@@ -6,10 +6,12 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
+import Button from './components/Button';
 
 function App() {
   return (
     <Fragment>
+      <Button/>
       <Navbar />
       <Hero />
       <Skills />
