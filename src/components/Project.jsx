@@ -35,7 +35,7 @@ const Project = ({ img, url, github, title, text, tags }) => {
           {tags.map((tag, idx) => (
             <span
               key={idx}
-              className='bg-violet-500 text-slate-100 px-2 py-1 rounded-xl text-sm'>
+              className='bg-violet-500 text-slate-100 px-2 py-1 rounded-xl text-sm cursor-default'>
               {tag}
             </span>
           ))}
