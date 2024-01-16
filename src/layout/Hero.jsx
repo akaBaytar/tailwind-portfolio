@@ -8,14 +8,13 @@ const Hero = () => {
       <div className='aligning grid md:grid-cols-2 items-center gap-8'>
         <article>
           <h1 className='text-5xl font-semibold tracking-wide'>
-            Hi, I&apos;m Burak
+            Hey, I&apos;m Burak
           </h1>
           <p className='mt-4 text-3xl text-slate-800 tracking-wide'>
             Frontend Developer
           </p>
           <p className='mt-2 text-lg text-slate-800'>
-            Elevating Web Experiences: HTMX, Tailwind, React – The Alchemy of
-            Digital Artistry.
+            Elevating Web Experiences: HTMX, Tailwind, SASS, React, Next.js
           </p>
           <div className='flex gap-x-4 mt-4'>
             <a

@@ -8,7 +8,7 @@
   }
 
   .scroll-button {
-    @apply bg-violet-500 text-slate-100 p-2 bottom-24 right-4 rounded-full h-10 w-10;
+    @apply bg-violet-500 text-slate-100 p-2 bottom-24 right-4 rounded-full h-10 w-10 z-10;
   }
 
   .progress-bar {
@@ -26,4 +26,14 @@
 
 ::-webkit-scrollbar-thumb {
   background-color: #8b5cf6;
+}
+
+::-moz-selection {
+  color: #ede9fe;
+  background: #8b5cf6;
+}
+
+::selection {
+  color: #ede9fe;
+  background: #8b5cf6;
 }
