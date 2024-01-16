@@ -1,19 +1,18 @@
 import svg from '../assets/svg/hero.svg';
-
 import { FaSquareXTwitter, FaSquareGithub, FaLinkedin } from 'react-icons/fa6';
 
 const Hero = () => {
   return (
-    <section className='bg-violet-100 py-24'>
-      <div className='aligning grid md:grid-cols-2 items-center gap-8'>
+    <section className='bg-violet-100 py-32'>
+      <div className='aligning grid lg:grid-cols-2 items-center justify-center lg:justify-start gap-8'>
         <article>
-          <h1 className='text-5xl font-semibold tracking-wide'>
+          <h1 className='text-4xl lg:text-5xl font-semibold tracking-wide '>
             Hey, I&apos;m Burak
           </h1>
-          <p className='mt-4 text-3xl text-slate-800 tracking-wide'>
+          <p className='mt-4 text-2xl lg:text-3xl text-slate-800 tracking-wide'>
             Frontend Developer
           </p>
-          <p className='mt-2 text-lg text-slate-800'>
+          <p className='mt-2 text-md lg:text-lg text-slate-800'>
             Elevating Web Experiences: HTMX, Tailwind, SASS, React, Next.js
           </p>
           <div className='flex gap-x-4 mt-4'>
@@ -37,8 +36,8 @@ const Hero = () => {
             </a>
           </div>
         </article>
-        <article className='hidden md:block'>
-          <img src={svg} alt='Hero Illustration' className='h-80 lg:h-96' />
+        <article className='block'>
+          <img src={svg} alt='Hero Illustration' className='h-50 lg:h-96' />
         </article>
       </div>
     </section>

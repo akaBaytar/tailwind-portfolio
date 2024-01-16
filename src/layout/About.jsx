@@ -10,13 +10,14 @@ const About = () => {
         <article>
           <Title text={'New Horizons'} />
           <p className='text-slate-800 mt-8 leading-loose'>
-            As a former student at Istanbul University-Cerrahpasa, I took a bold leap, leaving my studies in pursuit of
-            happiness and productivity.
+            As a former student at Istanbul University-Cerrahpasa, I took a bold
+            leap, leaving my studies in pursuit of happiness and productivity.
           </p>
           <p className='text-slate-800 mt-8 leading-loose'>
-            In 2022, I ventured into web development, mastering HTML, CSS and Javascript. Along the way, I delved into
-            version control, restful APIs, libraries and testing. Currently immersed in learning React.js and crafting
-            innovative web front ends in Javascript.
+            In 2022, I ventured into web development, mastering HTML, CSS and
+            Javascript. Along the way, I delved into version control, restful
+            APIs, libraries and testing. Currently immersed in learning React.js
+            and crafting innovative web front ends in Javascript.
           </p>
         </article>
       </div>
