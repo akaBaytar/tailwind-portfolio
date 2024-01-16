@@ -1,17 +1,17 @@
 import { Fragment } from 'react';
 
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import About from './components/About';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import Footer from './components/Footer';
+import Navbar from './layout/Navbar';
+import Hero from './layout/Hero';
+import About from './layout/About';
+import Skills from './layout/Skills';
+import Projects from './layout/Projects';
+import Footer from './layout/Footer';
 import Button from './components/Button';
 
 function App() {
   return (
     <Fragment>
-      <Button/>
+      <Button />
       <Navbar />
       <Hero />
       <Skills />

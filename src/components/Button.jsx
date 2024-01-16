@@ -1,11 +1,25 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { FaChevronUp } from 'react-icons/fa';
 
 const Button = () => {
   const [isVisible, setIsVisible] = useState(false);
 
+  const buttonRef = useRef(null);
+
   useEffect(() => {
-    const handleScroll = () => (window.scrollY > 400 ? setIsVisible(true) : setIsVisible(false));
+    const handleScroll = () => {
+      let scrollHeight = window.scrollY;
+
+      const bodyHeight = document.body.clientHeight;
+      const rootHeight = document.documentElement.clientHeight;
+      const height = bodyHeight - rootHeight;
+
+      let percent = (scrollHeight / height) * 100;
+
+      scrollHeight > 100 ? setIsVisible(true) : setIsVisible(false);
+
+      buttonRef.current.style.background = `conic-gradient(#8b5cf6 ${percent}%, #c4b5fd ${percent}%)`;
+    };
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
@@ -15,9 +29,12 @@ const Button = () => {
 
   return (
     <button
-      className={`bg-violet-500 text-slate-100 p-2 bottom-24 right-4 rounded-full ${isVisible ? 'fixed' : 'hidden'}`}
+      className={`scroll-button ${isVisible ? 'fixed' : 'hidden'}`}
+      ref={buttonRef}
       onClick={scrollToTop}>
-      <FaChevronUp className='text-3xl' />
+      <span className='progress-bar'>
+        <FaChevronUp className='text-lg' />
+      </span>
     </button>
   );
 };

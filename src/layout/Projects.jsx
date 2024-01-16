@@ -1,5 +1,5 @@
-import Title from './Title';
-import Project from './Project';
+import Title from '../components/Title';
+import Project from '../components/Project';
 
 import { projects } from '../data/index';
 

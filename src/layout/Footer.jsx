@@ -10,18 +10,29 @@ const Footer = () => {
           Burak<span className='text-violet-600'>Bilgili</span>
         </h2>
         <div className='flex gap-x-2 mt-2'>
-          <a href='https://github.com/akaBaytar' target='_blank' rel='noreferrer'>
+          <a
+            href='https://github.com/akaBaytar'
+            target='_blank'
+            rel='noreferrer'>
             <FaSquareGithub className='h-8 w-8 text-slate-800 hover:text-[#333] duration-300' />
           </a>
-          <a href='https://www.linkedin.com/in/akabaytar/' target='_blank' rel='noreferrer'>
+          <a
+            href='https://www.linkedin.com/in/akabaytar/'
+            target='_blank'
+            rel='noreferrer'>
             <FaLinkedin className='h-8 w-8 text-slate-800 hover:text-[#0077b5] duration-300' />
           </a>
-          <a href='https://twitter.com/akaBaytar' target='_blank' rel='noreferrer'>
+          <a
+            href='https://twitter.com/akaBaytar'
+            target='_blank'
+            rel='noreferrer'>
             <FaSquareXTwitter className='h-8 w-8 text-slate-800 hover:text-[#14171A] duration-300' />
           </a>
         </div>
       </div>
-      <p className='text-xs text-slate-800 mt-2 lg:text-end lg:w-full'>Copyright {year} © All right reserved.</p>
+      <p className='text-xs text-slate-800 mt-2 lg:text-end lg:w-full'>
+        Copyright {year} © All right reserved.
+      </p>
     </footer>
   );
 };

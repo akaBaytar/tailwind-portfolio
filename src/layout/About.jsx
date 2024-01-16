@@ -1,6 +1,6 @@
-import Title from './Title';
+import Title from '../components/Title';
 
-import svg from '../assets/svg/hero.svg';
+import svg from '../assets/svg/about.svg';
 
 const About = () => {
   return (
