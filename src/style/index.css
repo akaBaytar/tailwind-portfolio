@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 @layer components {
-  html {
-    @apply overflow-x-hidden;
-  }
-
   .aligning {
     @apply mx-auto max-w-7xl px-8;
   }
@@ -18,6 +14,10 @@
   .progress-bar {
     @apply absolute flex items-center justify-center w-8 h-8 hover:w-10 hover:h-10 left-0 top-0 translate-x-1 translate-y-1 hover:translate-x-0 hover:translate-y-0 bg-violet-300 hover:bg-violet-500 text-violet-500 hover:text-white rounded-full duration-200;
   }
+}
+
+:root {
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
